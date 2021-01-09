@@ -17,7 +17,7 @@
     android:layout_height="wrap_content"
     app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
     app:contentScrim="@color/purple_200"
-    app:title="Oops Concept "
+    app:title="Oop Concept "
     >
 
 <ImageView

@@ -2,6 +2,7 @@ package com.blogspot.learnjavawithme.IntroductionActivities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -11,6 +12,7 @@ public class BasicConcepOfOpps extends AppCompatActivity {
 
     TextView showText;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

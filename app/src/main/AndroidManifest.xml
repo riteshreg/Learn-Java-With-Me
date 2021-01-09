@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnJavaWithMe">
-        <activity android:name=".ProgramActivities.ConstructorInJava"></activity>
+        <activity android:name=".ProgramActivities.LoopInJavaActivities"></activity>
+        <activity android:name=".ProgramActivities.ConstructorInJava" />
         <activity android:name=".IntroductionActivities.BasicConcepOfOpps" />
         <activity android:name=".IntroductionActivities.IntroductionActivity" />
         <activity android:name=".MainActivities.MainActivity" />

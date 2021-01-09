@@ -2,6 +2,7 @@ package com.blogspot.learnjavawithme.ProgramActivities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -10,6 +11,7 @@ import com.blogspot.learnjavawithme.R;
 public class ConstructorInJava extends AppCompatActivity {
 
     TextView textViewForText,textViewForProgram;
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.blogspot.learnjavawithme.IntroductionActivities.BasicConcepOfOpps;
 import com.blogspot.learnjavawithme.IntroductionActivities.IntroductionActivity;
 import com.blogspot.learnjavawithme.ProgramActivities.ConstructorInJava;
+import com.blogspot.learnjavawithme.ProgramActivities.LoopInJavaActivities;
 import com.blogspot.learnjavawithme.R;
 import com.blogspot.learnjavawithme.SplashScreen;
 
@@ -31,9 +32,9 @@ public class MainActivity extends AppCompatActivity implements RecycleViewClickL
 
         ArrayList<JavaModel> list = new ArrayList<JavaModel>();
         list.add(new JavaModel("Introduction to Java"));
-        list.add(new JavaModel("Class And Object"));
+        list.add(new JavaModel("Oop concept"));
         list.add(new JavaModel("Constructor in java"));
-        list.add(new JavaModel("Dummy"));
+        list.add(new JavaModel("loop in Java"));
         list.add(new JavaModel("Dummy"));
         list.add(new JavaModel("Dummy"));
         list.add(new JavaModel("Dummy"));
@@ -73,6 +74,10 @@ public class MainActivity extends AppCompatActivity implements RecycleViewClickL
             case 2:
                 Intent intent2 = new Intent(MainActivity.this, ConstructorInJava.class);
                 startActivity(intent2);
+                break;
+            case 3:
+                Intent intent3 = new Intent(MainActivity.this, LoopInJavaActivities.class);
+                startActivity(intent3);
                 break;
 
         }
