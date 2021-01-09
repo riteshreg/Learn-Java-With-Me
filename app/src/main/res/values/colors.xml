@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="Wheat">#F5DEB3</color>
+    <color name="PapayaWhip">#FFEFD5</color>
+    <color name="Cornsilk">#FFF8DC</color>
+    <color name="AliceBlue">#F0F8FF</color>
 </resources>

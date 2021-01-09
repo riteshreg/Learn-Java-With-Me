@@ -15,13 +15,21 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(SplashScreen.this,MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        },4100);
+       Thread thread = new Thread(){
+           public void run(){
+
+               try {
+                   sleep(3000);
+                   Intent intent = new Intent(SplashScreen.this,MainActivity.class);
+                   startActivity(intent);
+                   finish();
+               } catch (InterruptedException e) {
+                   e.printStackTrace();
+               }
+
+           }
+       };
+       thread.start();
+
     }
 }
